@@ -6,8 +6,16 @@
 	<body>
 		<h1>Hello World!</h1>
 	</body>
-	<script src="node_modules/dojo-loader/loader.js" />
 	<script>
-		console.log(require.config);
+		require = require('dojo-loader');
+		require.config({
+			packages: [
+				{ name: 'testnwjs', location: './lib' }
+			]
+		});
+
+		require([ 'testnwjs/main' ], function (main) {
+			console.log(main());
+		});
 	</script>
 </html>

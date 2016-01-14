@@ -1,3 +1,3 @@
 export = function main() {
-	return 'hello';
+	return nw;
 }

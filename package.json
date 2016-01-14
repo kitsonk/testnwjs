@@ -1,7 +1,12 @@
 {
 	"name": "helloworld",
-	"version": "0.0.1",
+	"version": "0.1.0-pre",
 	"main": "index.html",
+	"license": "BSD-3-Clause",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/kitsonk/testnwjs.git"
+	},
 	"scripts": {
 		"start": "../../nwjs013/nwjs.app/Contents/MacOS/nwjs .",
 		"build": "tsc --listFiles"
@@ -10,6 +15,7 @@
 		"toolbar": true
 	},
 	"devDependencies": {
+		"dojo-loader": "2.0.0-alpha.4",
 		"tslint": "3.2.1",
 		"typescript": "1.7.5"
 	}
