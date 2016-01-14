@@ -1,7 +1,7 @@
 {
 	"compilerOptions": {
 		"target": "es6",
-		"module": "commonjs",
+		"module": "umd",
 		"outDir": "lib",
 		"noImplicitAny": true,
 		"moduleResolution": "node"
