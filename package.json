@@ -1,0 +1,16 @@
+{
+	"name": "helloworld",
+	"version": "0.0.1",
+	"main": "index.html",
+	"scripts": {
+		"start": "../../nwjs013/nwjs.app/Contents/MacOS/nwjs --enable-logging .",
+		"build": "tsc --listFiles"
+	},
+	"window": {
+		"toolbar": true
+	},
+	"devDependencies": {
+		"tslint": "3.2.1",
+		"typescript": "1.7.5"
+	}
+}

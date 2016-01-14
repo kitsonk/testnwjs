@@ -1,0 +1,13 @@
+{
+	"compilerOptions": {
+		"target": "es6",
+		"module": "commonjs",
+		"outDir": "lib",
+		"noImplicitAny": true,
+		"moduleResolution": "node"
+	},
+	"files": [
+		"./src/main.ts",
+		"./typings/tsd.d.ts"
+	]
+}
